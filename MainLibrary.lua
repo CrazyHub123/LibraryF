@@ -75,12 +75,16 @@ local ClosureBindings = {
 
             local Icons = require(Root.Icons).assets
             function Library:GetIcon(Name)
-                if Name ~= nil and Icons["lucide-" .. Name] then
-                    return Icons["lucide-" .. Name]
+                if Name ~= nil then
+                    if Icons["lucide-" .. Name] then
+                        return Icons["lucide-" .. Name]
+                    elseif string.match(Name, "^rbxassetid://%d+$") then
+                        return Name
+                    end
                 end
                 return nil
             end
-
+            
             local Elements = {}
             Elements.__index = Elements
             Elements.__namecall = function(Table, Key, ...)
@@ -1211,10 +1215,10 @@ local ClosureBindings = {
                     Icon = Library:GetIcon(Icon)
                 end
 
-                if Icon == "" or nil then
+                if Icon == "" or Icon == nil then
                     Icon = nil
                 end
-
+                
                 Tab.Frame = New("TextButton", {
                     Size = UDim2.new(1, 0, 0, 34),
                     BackgroundTransparency = 1,
