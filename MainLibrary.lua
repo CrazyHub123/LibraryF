@@ -536,7 +536,7 @@ local ClosureBindings = {
                 local Button = {}
 
                 Button.Title = New("TextLabel", {
-                    FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
+                    FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                     TextColor3 = Color3.fromRGB(200, 200, 200),
                     TextSize = 14,
                     TextWrapped = true,
@@ -673,11 +673,7 @@ local ClosureBindings = {
                 })
 
                 NewDialog.Title = New("TextLabel", {
-                    FontFace = Font.new(
-                        "rbxasset://fonts/families/GothamSSm.json",
-                        Enum.FontWeight.SemiBold,
-                        Enum.FontStyle.Normal
-                    ),
+                    FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                     Text = "Dialog",
                     TextColor3 = Color3.fromRGB(240, 240, 240),
                     TextSize = 20,
@@ -784,7 +780,7 @@ local ClosureBindings = {
                 local Element = {}
 
                 Element.TitleLabel = New("TextLabel", {
-                    FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Medium, Enum.FontStyle.Normal),
+                    FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                     Text = Title,
                     TextColor3 = Color3.fromRGB(240, 240, 240),
                     TextSize = 13,
@@ -798,7 +794,7 @@ local ClosureBindings = {
                 })
 
                 Element.DescLabel = New("TextLabel", {
-                    FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
+                    FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                     Text = Desc,
                     TextColor3 = Color3.fromRGB(200, 200, 200),
                     TextSize = 12,
@@ -959,7 +955,7 @@ local ClosureBindings = {
                     RichText = true,
                     TextColor3 = Color3.fromRGB(255, 255, 255),
                     TextTransparency = 0,
-                    FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
+                    FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                     TextSize = 13,
                     TextXAlignment = "Left",
                     TextYAlignment = "Center",
@@ -972,7 +968,7 @@ local ClosureBindings = {
                 })
 
                 NewNotification.ContentLabel = New("TextLabel", {
-                    FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
+                    FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                     Text = Config.Content,
                     TextColor3 = Color3.fromRGB(240, 240, 240),
                     TextSize = 14,
@@ -988,7 +984,7 @@ local ClosureBindings = {
                 })
 
                 NewNotification.SubContentLabel = New("TextLabel", {
-                    FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
+                    FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                     Text = Config.SubContent,
                     TextColor3 = Color3.fromRGB(240, 240, 240),
                     TextSize = 14,
@@ -1147,7 +1143,7 @@ local ClosureBindings = {
                         RichText = true,
                         Text = Title,
                         TextTransparency = 0,
-                        FontFace = Font.new("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal),
+                        FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                         TextSize = 18,
                         TextXAlignment = "Left",
                         TextYAlignment = "Center",
@@ -1237,11 +1233,7 @@ local ClosureBindings = {
                         RichText = true,
                         TextColor3 = Color3.fromRGB(255, 255, 255),
                         TextTransparency = 0,
-                        FontFace = Font.new(
-                            "rbxasset://fonts/families/GothamSSm.json",
-                            Enum.FontWeight.Regular,
-                            Enum.FontStyle.Normal
-                        ),
+                        FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                         TextSize = 12,
                         TextXAlignment = "Left",
                         TextYAlignment = "Center",
@@ -1383,7 +1375,7 @@ local ClosureBindings = {
                 local Textbox = {}
 
                 Textbox.Input = New("TextBox", {
-                    FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
+                    FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                     TextColor3 = Color3.fromRGB(200, 200, 200),
                     TextSize = 14,
                     TextXAlignment = Enum.TextXAlignment.Left,
@@ -1608,11 +1600,7 @@ local ClosureBindings = {
                         New("TextLabel", {
                             RichText = true,
                             Text = Config.Title,
-                            FontFace = Font.new(
-                                "rbxasset://fonts/families/GothamSSm.json",
-                                Enum.FontWeight.Regular,
-                                Enum.FontStyle.Normal
-                            ),
+                            FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                             TextSize = 12,
                             TextXAlignment = "Left",
                             TextYAlignment = "Center",
@@ -1627,11 +1615,7 @@ local ClosureBindings = {
                             RichText = true,
                             Text = "  " .. Config.SubTitle,
                             TextTransparency = 0.4,
-                            FontFace = Font.new(
-                                "rbxasset://fonts/families/GothamSSm.json",
-                                Enum.FontWeight.Regular,
-                                Enum.FontStyle.Normal
-                            ),
+                            FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                             TextSize = 12,
                             TextXAlignment = "Left",
                             TextYAlignment = "Center",
@@ -2024,7 +2008,7 @@ local ClosureBindings = {
                     Dialog.Title.Text = Config.Title
 
                     local Content = New("TextLabel", {
-                        FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
+                        FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                         Text = Config.Content,
                         TextColor3 = Color3.fromRGB(240, 240, 240),
                         TextSize = 14,
@@ -2067,7 +2051,7 @@ local ClosureBindings = {
                     Dialog.Title.TextSize = 25
 
                     local Content = New("TextLabel", {
-                        FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
+                        FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                         Text = Config.Content,
                         TextColor3 = Color3.fromRGB(240, 240, 240),
                         TextSize = 14,
@@ -2438,11 +2422,7 @@ local ClosureBindings = {
 
                     local function CreateInputLabel(Text, Pos)
                         return New("TextLabel", {
-                            FontFace = Font.new(
-                                "rbxasset://fonts/families/GothamSSm.json",
-                                Enum.FontWeight.Medium,
-                                Enum.FontStyle.Normal
-                            ),
+                            FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                             Text = Text,
                             TextColor3 = Color3.fromRGB(240, 240, 240),
                             TextSize = 13,
@@ -2987,7 +2967,7 @@ local ClosureBindings = {
                 Dropdown.SetDesc = DropdownFrame.SetDesc
 
                 local DropdownDisplay = New("TextLabel", {
-                    FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal),
+                    FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                     Text = "Value",
                     TextColor3 = Color3.fromRGB(240, 240, 240),
                     TextSize = 13,
@@ -3239,7 +3219,7 @@ local ClosureBindings = {
                                 })
 
                                 local ButtonLabel = New("TextLabel", {
-                                    FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
+                                    FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                                     Text = Value,
                                     TextColor3 = Color3.fromRGB(200, 200, 200),
                                     TextSize = 13,
@@ -3445,7 +3425,7 @@ local ClosureBindings = {
                         })
 
                         local ButtonLabel = New("TextLabel", {
-                            FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
+                            FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                             Text = Value,
                             TextColor3 = Color3.fromRGB(200, 200, 200),
                             TextSize = 13,
@@ -3706,7 +3686,7 @@ local ClosureBindings = {
 
                     do
                         local TitleLabel = New("TextLabel", {
-                            FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Medium, Enum.FontStyle.Normal),
+                            FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                             Text =  v.Label1.Title,
                             TextColor3 = Color3.fromRGB(240, 240, 240),
                             TextSize = 13,
@@ -3720,7 +3700,7 @@ local ClosureBindings = {
                         })
 
                         local DescLabel = New("TextLabel", {
-                            FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
+                            FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                             Text =  v.Label1.Content,
                             TextColor3 = Color3.fromRGB(200, 200, 200),
                             TextSize = 12,
@@ -3760,7 +3740,7 @@ local ClosureBindings = {
 
                     do 
                         local TitleLabel = New("TextLabel", {
-                            FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Medium, Enum.FontStyle.Normal),
+                            FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                             Text =  v.Label2.Title,
                             TextColor3 = Color3.fromRGB(240, 240, 240),
                             TextSize = 13,
@@ -3774,7 +3754,7 @@ local ClosureBindings = {
                         })
 
                         local DescLabel = New("TextLabel", {
-                            FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
+                            FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                             Text =  v.Label2.Content,
                             TextColor3 = Color3.fromRGB(200, 200, 200),
                             TextSize = 12,
@@ -3861,7 +3841,7 @@ local ClosureBindings = {
 
 
                 local TextDisplay = New("TextLabel", {
-                    FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal),
+                    FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                     Text = "",
                     TextColor3 = Color3.fromRGB(150, 150, 150),
                     TextSize = 14,
@@ -3999,7 +3979,7 @@ local ClosureBindings = {
                 Keybind.SetDesc = KeybindFrame.SetDesc
 
                 local KeybindDisplayLabel = New("TextLabel", {
-                    FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal),
+                    FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                     Text = Config.Default,
                     TextColor3 = Color3.fromRGB(240, 240, 240),
                     TextSize = 13,
@@ -4263,7 +4243,7 @@ local ClosureBindings = {
                 })
 
                 local SliderDisplay = New("TextLabel", {
-                    FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
+                    FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                     Text = "Value",
                     TextSize = 12,
                     TextWrapped = true,
@@ -5571,7 +5551,7 @@ local ClosureBindings = {
                 end
 
                 return allMotorsComplete
-            end
+            end     
 
             function GroupMotor:setGoal(goals)
                 assert(not goals.step, 'goals contains disallowed property "step". Did you mean to put a table of goals here?')
@@ -7351,6 +7331,136 @@ local function LoadScript(scriptRef)
         return unpack(PCallReturn)
     end
 end
+
+
+local Dragging, DragInput, MousePos, StartPos = false
+
+local MinimizeButton = New("TextButton", {
+    BackgroundTransparency = 1,
+    Size = UDim2.new(1, 0, 1, 0),
+    BorderSizePixel = 0
+}, {
+    New("UIPadding", {
+        PaddingBottom = UDim.new(0, 2),
+        PaddingLeft = UDim.new(0, 2),
+        PaddingRight = UDim.new(0, 2),
+        PaddingTop = UDim.new(0, 2),
+    }),
+    New("ImageLabel", {
+        Image = "rbxassetid://17177606634",
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+    }, {
+        New("UIAspectRatioConstraint", {
+            AspectRatio = 1,
+            AspectType = Enum.AspectType.FitWithinMaxSize,
+        })
+    })
+})
+
+local Minimizer = New("Frame", {
+    Parent = GUI,
+    Size = UDim2.new(0, 32, 0, 32),
+    Position = UDim2.new(0.45, 0, 0.025, 0),
+    BackgroundTransparency = 1,
+    ZIndex = 999999999,
+},
+{
+    New("Frame", {
+        BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 0.5,
+        BorderSizePixel = 0
+    }, {
+        New("UICorner", {
+            CornerRadius = UDim.new(0.25, 0),
+        }),
+        MinimizeButton
+    })
+})
+
+Creator.AddSignal(Minimizer.InputBegan, function(Input)
+    if
+        Input.UserInputType == Enum.UserInputType.MouseButton1
+        or Input.UserInputType == Enum.UserInputType.Touch
+    then
+        Dragging = true
+        MousePos = Input.Position
+        StartPos = Minimizer.Position
+
+        Input.Changed:Connect(function()
+            if Input.UserInputState == Enum.UserInputState.End then
+                Dragging = false
+            end
+        end)
+    end
+end)
+
+Creator.AddSignal(MinimizeButton.InputBegan, function(Input)
+    if
+        Input.UserInputType == Enum.UserInputType.MouseButton1
+        or Input.UserInputType == Enum.UserInputType.Touch
+    then
+        Dragging = true
+        MousePos = Input.Position
+        StartPos = Minimizer.Position
+
+        Input.Changed:Connect(function()
+            if Input.UserInputState == Enum.UserInputState.End then
+                Dragging = false
+            end
+        end)
+    end
+end)
+
+Creator.AddSignal(MinimizeButton.InputChanged, function(Input)
+    if
+        Input.UserInputType == Enum.UserInputType.MouseMovement
+        or Input.UserInputType == Enum.UserInputType.Touch
+    then
+        DragInput = Input
+    end
+end)
+Creator.AddSignal(Minimizer.InputChanged, function(Input)
+    if
+        Input.UserInputType == Enum.UserInputType.MouseMovement
+        or Input.UserInputType == Enum.UserInputType.Touch
+    then
+        DragInput = Input
+    end
+end)
+
+Creator.AddSignal(UserInputService.InputChanged, function(Input)
+    if Input == DragInput and Dragging then
+        local GuiInset = game:GetService("GuiService"):GetGuiInset()
+        local Delta = Input.Position - MousePos
+        local ViewportSize = workspace.Camera.ViewportSize
+        local CurrentX = StartPos.X.Scale + (Delta.X/ViewportSize.X)
+        local CurrentY = StartPos.Y.Scale + (Delta.Y/ViewportSize.Y)
+
+        if CurrentX<0 or CurrentX > (ViewportSize.X - Minimizer.AbsoluteSize.X)/ViewportSize.X then
+            if CurrentX < 0 then
+                CurrentX = 0
+            else
+                CurrentX = (ViewportSize.X - Minimizer.AbsoluteSize.X)/ViewportSize.X
+            end
+        end
+
+        if CurrentY < 0 or CurrentY > ((ViewportSize.Y + GuiInset.Y) - Minimizer.AbsoluteSize.Y)/(ViewportSize.Y + GuiInset.Y) then
+            if CurrentY < 0 then
+                CurrentY = 0
+            else
+                CurrentY = ((ViewportSize.Y + GuiInset.Y) - Minimizer.AbsoluteSize.Y)/(ViewportSize.Y + GuiInset.Y)
+            end
+        end
+        
+        Minimizer.Position = UDim2.fromScale(CurrentX, CurrentY)
+    end
+end)
+
+AddSignal(MinimizeButton.MouseButton1Click, function()
+    Library.Window:Minimize()
+end)
 
 -- We'll assign the actual func from the top of this output for flattening user globals at runtime
 -- Returns (in a tuple order): wax, script, require
