@@ -78,8 +78,8 @@ local ClosureBindings = {
                 if Name ~= nil then
                     if Icons["lucide-" .. Name] then
                         return Icons["lucide-" .. Name]
-                    elseif string.match(Name, "^rbxassetid://%d+$") then
-                        return Name
+                    elseif tonumber(Name) then
+                        return "rbxassetid://" .. Name
                     end
                 end
                 return nil
